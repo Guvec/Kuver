@@ -4,9 +4,9 @@ const el=id=>{if(!elements.has(id))elements.set(id,{id,innerHTML:'',className:''
 const ctx=new Proxy({measureText:t=>({width:String(t).length*11})},{get:(o,k)=>o[k]||(()=>{})});
 const doc={hidden:false,activeElement:null,addEventListener(){},getElementById:el,querySelector:s=>s==='.rep'?el('app'):el(s),querySelectorAll:()=>[],createElement:tag=>tag==='canvas'?{width:0,height:0,getContext:()=>ctx,toDataURL:()=> 'data:image/png;base64,',toBlob(){}}:el(tag),body:el('body')};
 const env={console,document:doc,window:{scrollTo(){}},localStorage:{getItem:k=>store.get(k),setItem:(k,v)=>store.set(k,v)},navigator:{},location:{protocol:'http:',hostname:'test'},fetch:async url=>({ok:true,json:async()=>JSON.parse(fs.readFileSync(path.join(root,url),'utf8'))}),setTimeout,clearTimeout,URL,Date,Math,JSON};vm.createContext(env);
-for(const file of ['js/core.js','js/platform.js','js/eslestirme.js','js/sorular.js'])vm.runInContext(fs.readFileSync(path.join(root,file),'utf8'),env,{filename:file});
+for(const file of ['js/core.js','js/platform.js','js/eslestirme.js','js/sorular.js','js/ses.js'])vm.runInContext(fs.readFileSync(path.join(root,file),'utf8'),env,{filename:file});
 const run=s=>vm.runInContext(s,env),html=()=>el('app').innerHTML;
-(async()=>{await run('loadContent()');assert.equal(run('VERSION'),'Sürüm · 28.10.2026');assert(html().includes('Sürüm · 28.10.2026'));run('guest()');for(const t of ['Kuver','Mutfak Araçları','Beslenme İlkeleri','Bulaşık Makinesi Temizliği'])assert(html().includes(t));run("openSubject('kuver');pickOp('kur')");assert(html().includes('Basit Kuver'));assert(html().includes('Tabldot Kuver'));assert(!html().includes('Tam Kuver'));run("pickLevel(1);choosePractice('learn')");assert.equal(run('LEVELS[st.lvl].items.length'),5);
+(async()=>{await run('loadContent()');assert.equal(run('VERSION'),'Sürüm · 30.10.2026');assert(html().includes('Sürüm · 30.10.2026'));run('guest()');for(const t of ['Kuver','Mutfak Araçları','Beslenme İlkeleri','Bulaşık Makinesi Temizliği'])assert(html().includes(t));run("openSubject('kuver');pickOp('kur')");assert(html().includes('Basit Kuver'));assert(html().includes('Tabldot Kuver'));assert(!html().includes('Tam Kuver'));run("pickLevel(1);choosePractice('learn')");assert.equal(run('LEVELS[st.lvl].items.length'),5);
 run("answer(LEVELS[1].items.find(k=>k!==st.q.key))");assert(html().includes('Birlikte tekrar deneyelim'));run('askBreak();startBreak()');assert.equal(run('st.brk'),1);assert.equal(run('st.t0'),0);el('bGo').onclick();run('answer(st.q.key)');assert.equal(run('st.sess.fix'),1);assert.equal(run('st.sess.s'),5);
 for(let i=1;i<5;i++)run('nextQ();answer(st.q.key)');run('nextQ()');assert.equal(run('st.kDone'),true);assert(!html().includes('class="done-photo"'));assert(html().includes('basit kuver örneği'));assert.equal(run('st.sess.s'),45);
 run("st.lvl=3;st.practice='check';startSession()");for(let i=0;i<9;i++){assert.equal((html().match(/onclick="answer\('/g)||[]).length,9);run('answer(st.q.key);nextQ()');}assert.equal(run('st.kDone'),true);assert.equal(run('st.sess.s'),90);assert(html().includes('tabldot-kuver-referans.png'));assert.equal(run('st.sess.variant'),'tabldot');
@@ -27,15 +27,21 @@ assert.equal(mk.matches.length,132);assert.equal(new Set(mk.matches.map(m=>m.ans
 const names=new Set(mk.matches.map(m=>m.answer));
 for(const m of mk.matches){assert(fs.existsSync(path.join(root,m.image)),m.image);assert(m.explanation&&m.source&&m.source.page);for(const x of m.similar||[])assert(names.has(x),x);assert(!(m.imageAlt||'').includes(m.answer));}
 for(let t=1;t<=11;t++){const g=mk.matches.filter(m=>m.set===t);assert.equal(g.length,12);assert.equal(new Set(g.map(m=>m.answer)).size,12);}
-const sw=fs.readFileSync(path.join(root,'sw.js'),'utf8');for(const m of mk.matches)assert(sw.includes('"'+m.image+'"'),'sw: '+m.image);
+// Çeldiriciler: her takımda 6 sabit ad; kitaptaki 120 addan; tahtada görseli yok; tekrar yok.
+for(let t=1;t<=11;t++){const L=mk.distractors[String(t)],on=new Set(mk.matches.filter(m=>m.set===t).map(m=>m.answer));assert.equal(L.length,6);assert.equal(new Set(L).size,6);for(const x of L){assert(names.has(x),x);assert(!on.has(x),t+': '+x);}}
+// Kitapla eşitlenen adlar: eski adlar kalmadı.
+const mkText=JSON.stringify(mk);for(const old of ['ORTA BOY TABAK','SERVİS TABAĞI','KURU GIDA KABI','"SİLİKON SPATULA"','Reçellik'])assert(!mkText.includes(old),old);
+for(const nw of ['TATLI TABAĞI','ANA YEMEK TABAĞI','KURU GIDA KAVANOZU','SİLİKON SIYIRMA SPATULASI','KAHVALTILIK KÂSE'])assert(names.has(nw),nw);
+const sw=fs.readFileSync(path.join(root,'sw.js'),'utf8');assert(sw.includes('"js/ses.js"'));for(const m of mk.matches)assert(sw.includes('"'+m.image+'"'),'sw: '+m.image);
 await run('loadContent()');assert(run("CONTENT['mutfak-araclari'].matches.length")===132);
 run("st.guest=true;st.prof=null;openSubject('kuver')");assert(html().includes('Kuveri Kur')&&html().includes('Adını Bul')&&html().includes('Çoktan Seçmeli'));assert(!html().includes("pickContent('match')"));assert(!html().includes('Kelime Kartları'));
 for(const s of ['mutfak-araclari','beslenme-ilkeleri','bulasik-makinesi-temizligi']){run("openSubject('"+s+"')");assert(html().includes("pickContent('match')")&&html().includes("pickContent('mcq')"));assert(!html().includes('Kelime Kartları'));}
 run("st.guest=true;st.prof=null;openSubject('mutfak-araclari');pickContent('match')");assert.equal((html().match(/startContent\(\d+\)/g)||[]).length,11);assert(html().includes('12 kart'));
 // Öğreniyorum: 12 görsel ve 12 ad birlikte; yanlışta ipucu, ikinci yanlışta doğru ad gösterilir.
 for(let t=1;t<=11;t++){run('startContent('+t+')');assert.equal(run('st.screen'),'boardmode');run("startBoard('learn')");
-  assert.equal((html().match(/class="bimg(?:"| )/g)||[]).length,12);assert.equal((html().match(/class="bname/g)||[]).length,12);
-  assert.equal(run('JSON.stringify([...st.board.names].sort())'),run('JSON.stringify(st.board.items.map(x=>x.answer).sort())'));
+  assert.equal((html().match(/class="bimg(?:"| )/g)||[]).length,12);assert.equal((html().match(/class="bname/g)||[]).length,18);
+  assert.equal(run('JSON.stringify([...st.board.names].sort())'),run('JSON.stringify(st.board.items.map(x=>x.answer).concat(getData().distractors["'+t+'"]).sort())'));
+  assert(html().includes('12 görsel ve 18 ad var. 6 adın görseli yok.'));
   const ids=run('st.board.items.map(x=>x.id)');
   ids.forEach((id,k)=>{
     if(k===0){run("tapImg('"+id+"');tapName(st.board.names.findIndex(n=>n!==boardItem('"+id+"').answer))");assert(html().includes('Birlikte tekrar deneyelim'));assert.equal(run("st.board.res['"+id+"']"),undefined);
@@ -68,4 +74,17 @@ for(let g=0;g<22;g++){run('pickGroup('+g+')');const n=run('st.contentItems.lengt
     else run('answer(st.q.correct)');run('nextQ()');}
   assert.equal(run('st.kDone'),true);assert.equal(run('st.sess.ok'),n-1);assert.equal(run('st.sess.bad'),1);run("pickContent('mcq')");}
 run("pickGroup(4)");run('finish()');assert.equal(run('catName(st.sess)'),'Mutfak Araçları · Çoktan Seçmeli Sorular · 1. Bölüm sonu değerlendirme');run('startSession()');assert.equal(run('st.sess.group'),'1. Bölüm sonu değerlendirme');assert(html().includes('opts-pic'));
+// Sesli okuma: ad kartı okunur; görselin adı eşleşmeden önce okunmaz; soru ve seçenekler okunur.
+run("globalThis.SPOKEN=[];globalThis.SpeechSynthesisUtterance=function(t){this.text=t};globalThis.speechSynthesis={speak(u){SPOKEN.push(u.text)},cancel(){},getVoices(){return [{lang:'tr-TR'}]}};window.speechSynthesis=speechSynthesis;SES.acik=true");
+assert.equal(run("sesMetin('Süt ……… ile 250 ml ölçülür; 74 °C; 3–4 gün; 200 g un')"),'Süt boşluk ile 250 mililitre ölçülür; 74 derece; 3 ile 4 gün; 200 gram un');
+assert.equal(run("sesAd('SMOOTHİE BLENDERİ')"),'smuti blenderi');assert.equal(run("sesAd('TATLI KAŞIĞI')"),'tatlı kaşığı');
+run("openSubject('mutfak-araclari');pickContent('match');startContent(5);startBoard('check');SPOKEN.length=0");
+const id5=run('st.board.items[0].id');run("tapImg('"+id5+"')");assert.equal(run('SPOKEN.length'),0,'görsel adı okunmamalı');
+run("tapName(0)");assert.equal(run('SPOKEN.at(-1)'),run("sesMetin(sesAd(st.board.names[0]))"));
+run("startBoard('learn');SPOKEN.length=0;tapImg(st.board.items[0].id)");assert.equal(run('SPOKEN.length'),0);
+run("tapName(st.board.names.indexOf(st.board.items[0].answer))");assert(run("SPOKEN.some(t=>t.startsWith('Doğru!'))"));
+run("SPOKEN.length=0;tapImg(st.board.items[0].id)");assert(run("SPOKEN[0].startsWith(sesMetin(sesAd(st.board.items[0].answer)))"),'eşlenmiş görsel okunur');
+run("pickContent('mcq');pickGroup(0)");assert(run("SPOKEN.at(-1).startsWith(sesMetin(st.q.prompt))"));assert(run("SPOKEN.at(-1).includes('A, ')"));assert(html().includes('class="spk"'));
+run("sesAcKapa();SPOKEN.length=0;answer(st.q.correct)");assert.equal(run('SPOKEN.length'),0,'ses kapalıyken okunmaz');run('sesAcKapa()');
+console.log('PASS: Sesli okuma / 18 ad tahtası / ');
 console.log('PASS: Mutfak Araçları 211 soru / 22 konu / Mutfak Araçları 11 takım × 12 görsel-ad tahtası (öğrenme + toplu kontrol) / Menü / basit ve tabldot / 1 mola / +5 düzeltme / 5 ve 9 parça / sabit bağımsız hedefler / 10 benzersiz tanıma sorusu / tek yanıt / rapor / soru-kart motorları / kaynak izi / misafir-kayıt / JSON doğrulama.');})().catch(e=>{console.error(e);process.exit(1)});

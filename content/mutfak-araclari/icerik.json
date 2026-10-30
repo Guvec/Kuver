@@ -5,7 +5,7 @@
    "group": "Tabaklar ve kâseler",
    "chapter": 1,
    "kind": "Kendini dene",
-   "prompt": "Makarna hangi tabakta sunulur?",
+   "prompt": "Kenarı geniş ve düz, ortası çukur olan tabak hangisidir?",
    "choices": [
     {
      "id": "A",
@@ -17,7 +17,7 @@
     },
     {
      "id": "C",
-     "text": "Servis tabağı"
+     "text": "Ana yemek tabağı"
     },
     {
      "id": "D",
@@ -25,9 +25,9 @@
     }
    ],
    "correct": "B",
-   "explanation": "",
+   "explanation": "Makarna tabağının kenarı geniş ve düz, ortası çukurdur.",
    "source": {
-    "file": "Mutfak_Araclari_Ogrenci_Kitabi.pdf",
+    "file": "Mutfak_Araclari_Duzeltilmis_v2.docx",
     "question": "1",
     "section": "Kendini dene"
    }
@@ -49,7 +49,7 @@
     },
     {
      "id": "C",
-     "text": "Orta boy tabak"
+     "text": "Tatlı tabağı"
     },
     {
      "id": "D",
@@ -59,7 +59,7 @@
    "correct": "D",
    "explanation": "",
    "source": {
-    "file": "Mutfak_Araclari_Ogrenci_Kitabi.pdf",
+    "file": "Mutfak_Araclari_Duzeltilmis_v2.docx",
     "question": "2",
     "section": "Kendini dene"
    }
@@ -69,7 +69,7 @@
    "group": "Tabaklar ve kâseler",
    "chapter": 1,
    "kind": "Kendini dene",
-   "prompt": "Reçel hangi kapta sunulur?",
+   "prompt": "Az miktarda reçel sunmak için hangisi en uygundur?",
    "choices": [
     {
      "id": "A",
@@ -89,9 +89,9 @@
     }
    ],
    "correct": "C",
-   "explanation": "",
+   "explanation": "Kahvaltılık kâse, reçel, bal, zeytin ve peynir gibi kahvaltılıkları küçük porsiyonlar hâlinde sunmak için kullanılır.",
    "source": {
-    "file": "Mutfak_Araclari_Ogrenci_Kitabi.pdf",
+    "file": "Mutfak_Araclari_Duzeltilmis_v2.docx",
     "question": "3",
     "section": "Kendini dene"
    }
@@ -101,29 +101,29 @@
    "group": "Tabaklar ve kâseler",
    "chapter": 1,
    "kind": "Kendini dene",
-   "prompt": "Yoğurt ve komposto ……… kâsesinde de sunulur.",
+   "prompt": "Çorba kâsesi taşınacak. Dökülme riskini azaltmak için ne yapılır?",
    "choices": [
     {
      "id": "A",
-     "text": "salata"
+     "text": "Kâse ağzına kadar doldurulur."
     },
     {
      "id": "B",
-     "text": "kahvaltılık"
+     "text": "Kâse altlıksız taşınır."
     },
     {
      "id": "C",
-     "text": "çorba"
+     "text": "Üst kenarda boşluk bırakılır."
     },
     {
      "id": "D",
-     "text": "tatlı"
+     "text": "Tepsi bir kenarından tutulur."
     }
    ],
    "correct": "C",
-   "explanation": "",
+   "explanation": "Kâsenin üst kenarında boşluk bırakılır; böylece taşınırken dökülme riski azalır.",
    "source": {
-    "file": "Mutfak_Araclari_Ogrenci_Kitabi.pdf",
+    "file": "Mutfak_Araclari_Duzeltilmis_v2.docx",
     "question": "4",
     "section": "Kendini dene"
    }
@@ -165,29 +165,29 @@
    "group": "Tabaklar ve kâseler",
    "chapter": 1,
    "kind": "Kendini dene",
-   "prompt": "Tatlı ve meyve ……… tabakta sunulur.",
+   "prompt": "Pasta sunmak için hangi düz tabak en uygundur?",
    "choices": [
     {
      "id": "A",
-     "text": "çukur"
+     "text": "Çukur tabak"
     },
     {
      "id": "B",
-     "text": "makarna"
+     "text": "Makarna tabağı"
     },
     {
      "id": "C",
-     "text": "ekmek"
+     "text": "Ekmek tabağı"
     },
     {
      "id": "D",
-     "text": "orta boy"
+     "text": "Tatlı tabağı"
     }
    ],
    "correct": "D",
-   "explanation": "",
+   "explanation": "Tatlı tabağı tatlı, pasta, meyve ve kahvaltı için kullanılan düz tabaktır.",
    "source": {
-    "file": "Mutfak_Araclari_Ogrenci_Kitabi.pdf",
+    "file": "Mutfak_Araclari_Duzeltilmis_v2.docx",
     "question": "6",
     "section": "Kendini dene"
    }
@@ -229,7 +229,7 @@
    "group": "Tabaklar ve kâseler",
    "chapter": 1,
    "kind": "Kendini dene",
-   "prompt": "Kâsede yemek taşmasın diye üst kenarda yaklaşık ……… boşluk bırakılır.",
+   "prompt": "Çorba kâsesinde yemek taşmasın diye üst kenarda yaklaşık ……… boşluk bırakılır.",
    "choices": [
     {
      "id": "A",
@@ -251,7 +251,7 @@
    "correct": "A",
    "explanation": "",
    "source": {
-    "file": "Mutfak_Araclari_Ogrenci_Kitabi.pdf",
+    "file": "Mutfak_Araclari_Duzeltilmis_v2.docx",
     "question": "8",
     "section": "Kendini dene"
    }
@@ -261,7 +261,7 @@
    "group": "Tabaklar ve kâseler",
    "chapter": 1,
    "kind": "Kendini dene",
-   "prompt": "Salata kâsesi, çorba kâsesine göre daha ……… olur.",
+   "prompt": "Karşılaştırma fotoğrafındaki salata kâsesi, çorba kâsesine göre daha ……… olur.",
    "choices": [
     {
      "id": "A",
@@ -283,7 +283,7 @@
    "correct": "D",
    "explanation": "",
    "source": {
-    "file": "Mutfak_Araclari_Ogrenci_Kitabi.pdf",
+    "file": "Mutfak_Araclari_Duzeltilmis_v2.docx",
     "question": "9",
     "section": "Kendini dene"
    }
@@ -305,7 +305,7 @@
     },
     {
      "id": "C",
-     "text": "orta boy"
+     "text": "tatlı"
     },
     {
      "id": "D",
@@ -315,7 +315,7 @@
    "correct": "A",
    "explanation": "",
    "source": {
-    "file": "Mutfak_Araclari_Ogrenci_Kitabi.pdf",
+    "file": "Mutfak_Araclari_Duzeltilmis_v2.docx",
     "question": "10",
     "section": "Kendini dene"
    }
@@ -357,7 +357,7 @@
    "group": "Bardaklar ve fincanlar",
    "chapter": 1,
    "kind": "Kendini dene",
-   "prompt": "Ayran hangi bardakta sunulur?",
+   "prompt": "Ayran sunmak için hangi bardak en uygundur?",
    "choices": [
     {
      "id": "A",
@@ -379,7 +379,7 @@
    "correct": "D",
    "explanation": "",
    "source": {
-    "file": "Mutfak_Araclari_Ogrenci_Kitabi.pdf",
+    "file": "Mutfak_Araclari_Duzeltilmis_v2.docx",
     "question": "1",
     "section": "Kendini dene"
    }
@@ -517,7 +517,7 @@
    "group": "Çatal, bıçak ve kaşıklar",
    "chapter": 1,
    "kind": "Kendini dene",
-   "prompt": "Sütlaç hangi kaşıkla yenir?",
+   "prompt": "Sütlaç yemek için hangi kaşık en uygundur?",
    "choices": [
     {
      "id": "A",
@@ -539,7 +539,7 @@
    "correct": "D",
    "explanation": "",
    "source": {
-    "file": "Mutfak_Araclari_Ogrenci_Kitabi.pdf",
+    "file": "Mutfak_Araclari_Duzeltilmis_v2.docx",
     "question": "2",
     "section": "Kendini dene"
    }
@@ -549,7 +549,7 @@
    "group": "Çatal, bıçak ve kaşıklar",
    "chapter": 1,
    "kind": "Kendini dene",
-   "prompt": "Ekmeğe tereyağı hangi bıçakla sürülür?",
+   "prompt": "Ekmeğe tereyağı sürmek için hangi bıçak en uygundur?",
    "choices": [
     {
      "id": "A",
@@ -571,7 +571,7 @@
    "correct": "C",
    "explanation": "",
    "source": {
-    "file": "Mutfak_Araclari_Ogrenci_Kitabi.pdf",
+    "file": "Mutfak_Araclari_Duzeltilmis_v2.docx",
     "question": "3",
     "section": "Kendini dene"
    }
@@ -677,7 +677,7 @@
    "group": "Çatal, bıçak ve kaşıklar",
    "chapter": 1,
    "kind": "Kendini dene",
-   "prompt": "Şeker, temiz ve ……… kaşıkla alınır.",
+   "prompt": "Toz şeker, temiz ve ……… kaşıkla alınır.",
    "choices": [
     {
      "id": "A",
@@ -699,7 +699,7 @@
    "correct": "C",
    "explanation": "",
    "source": {
-    "file": "Mutfak_Araclari_Ogrenci_Kitabi.pdf",
+    "file": "Mutfak_Araclari_Duzeltilmis_v2.docx",
     "question": "7",
     "section": "Kendini dene"
    }
@@ -709,7 +709,7 @@
    "group": "Servis araçları",
    "chapter": 1,
    "kind": "Kendini dene",
-   "prompt": "Sıcak servis tabağı tutulurken el ile tabak arasına ne konur?",
+   "prompt": "Sıcak ana yemek tabağı tutulurken el ile tabak arasına ne konur?",
    "choices": [
     {
      "id": "A",
@@ -731,7 +731,7 @@
    "correct": "C",
    "explanation": "",
    "source": {
-    "file": "Mutfak_Araclari_Ogrenci_Kitabi.pdf",
+    "file": "Mutfak_Araclari_Duzeltilmis_v2.docx",
     "question": "1",
     "section": "Kendini dene"
    }
@@ -1373,7 +1373,7 @@
    "group": "1. Bölüm sonu değerlendirme",
    "chapter": 1,
    "kind": "Bölüm sonu",
-   "prompt": "Konuğa ortak kaptan pilav verilecek. Pilavı konuğun tabağına almak için hangisi kullanılır?",
+   "prompt": "Konuğa ortak kaptan pilav verilecek. Pilavı konuğun tabağına almak için hangisi en uygundur?",
    "choices": [
     {
      "id": "A",
@@ -1395,7 +1395,7 @@
    "correct": "C",
    "explanation": "Ortak kaptan yiyecek servis kaşığı ve çatalıyla alınır.",
    "source": {
-    "file": "Mutfak_Araclari_Ogrenci_Kitabi.pdf",
+    "file": "Mutfak_Araclari_Duzeltilmis_v2.docx",
     "question": "10",
     "section": "Bölüm sonu"
    }
@@ -1447,7 +1447,7 @@
     },
     {
      "id": "B",
-     "text": "Servis tabağı"
+     "text": "Ana yemek tabağı"
     },
     {
      "id": "C",
@@ -1463,7 +1463,7 @@
    "correct": "C",
    "explanation": "Makarna tabağının kenarı geniş ve düz, ortası çukurdur. Çukur tabağın kenarı dardır.",
    "source": {
-    "file": "Mutfak_Araclari_Ogrenci_Kitabi.pdf",
+    "file": "Mutfak_Araclari_Duzeltilmis_v2.docx",
     "question": "2",
     "section": "Görselden seçme"
    }
@@ -1643,7 +1643,7 @@
    "group": "1. Bölüm · Durum soruları",
    "chapter": 1,
    "kind": "Durum soruları",
-   "prompt": "Konuğa ayran sunulacak. Hangi bardak kullanılır?",
+   "prompt": "Konuğa ayran sunulacak. Hangi bardak en uygundur?",
    "choices": [
     {
      "id": "A",
@@ -1665,7 +1665,7 @@
    "correct": "B",
    "explanation": "Meşrubat bardağı meyve suyu ve ayran için kullanılır.",
    "source": {
-    "file": "Mutfak_Araclari_Ogrenci_Kitabi.pdf",
+    "file": "Mutfak_Araclari_Duzeltilmis_v2.docx",
     "question": "1",
     "section": "Durum soruları"
    }
@@ -1739,7 +1739,7 @@
    "group": "1. Bölüm · Durum soruları",
    "chapter": 1,
    "kind": "Durum soruları",
-   "prompt": "Konuğa limonata sunulacak. Hangi bardak kullanılır?",
+   "prompt": "Konuğa limonata sunulacak. Hangi bardak en uygundur?",
    "choices": [
     {
      "id": "A",
@@ -1759,9 +1759,9 @@
     }
    ],
    "correct": "C",
-   "explanation": "",
+   "explanation": "Meşrubat bardağı meyve suyu, ayran ve limonata gibi soğuk içecekler için kullanılır.",
    "source": {
-    "file": "Mutfak_Araclari_Ogrenci_Kitabi.pdf",
+    "file": "Mutfak_Araclari_Duzeltilmis_v2.docx",
     "question": "4",
     "section": "Durum soruları"
    }
@@ -1803,29 +1803,29 @@
    "group": "1. Bölüm · Durum soruları",
    "chapter": 1,
    "kind": "Durum soruları",
-   "prompt": "Kahvaltıda reçel ve bal sunulacak. Ne yapılır?",
+   "prompt": "Kahvaltılık kâseye ne konur?",
    "choices": [
     {
      "id": "A",
-     "text": "İkisi aynı kâseye konur."
+     "text": "Çorba."
     },
     {
      "id": "B",
-     "text": "Her biri ayrı kahvaltılık kâseye konur."
+     "text": "Reçel, bal, zeytin, peynir."
     },
     {
      "id": "C",
-     "text": "Reçel tabağa, bal bardağa konur."
+     "text": "Salata."
     },
     {
      "id": "D",
-     "text": "İkisi çorba kâsesine konur."
+     "text": "Ana yemek."
     }
    ],
    "correct": "B",
-   "explanation": "Her yiyecek ayrı kâseye konur; tatlar karışmaz.",
+   "explanation": "Kahvaltılık kâse, reçel, bal, zeytin ve peynir gibi kahvaltılıkları küçük porsiyonlar hâlinde sunmak için kullanılır.",
    "source": {
-    "file": "Mutfak_Araclari_Ogrenci_Kitabi.pdf",
+    "file": "Mutfak_Araclari_Duzeltilmis_v2.docx",
     "question": "6",
     "section": "Durum soruları"
    }
@@ -1867,7 +1867,7 @@
    "group": "Pişirme kapları ve tavalar",
    "chapter": 2,
    "kind": "Kendini dene",
-   "prompt": "Pilav hangi tencerede pişirilir?",
+   "prompt": "Basık, geniş ve tabanı kalın olan tencerenin adı nedir?",
    "choices": [
     {
      "id": "A",
@@ -1887,9 +1887,9 @@
     }
    ],
    "correct": "C",
-   "explanation": "",
+   "explanation": "Pilav tenceresi basık, geniş ve tabanı kalın tenceredir.",
    "source": {
-    "file": "Mutfak_Araclari_Ogrenci_Kitabi.pdf",
+    "file": "Mutfak_Araclari_Duzeltilmis_v2.docx",
     "question": "1",
     "section": "Kendini dene"
    }
@@ -1995,29 +1995,29 @@
    "group": "Pişirme kapları ve tavalar",
    "chapter": 2,
    "kind": "Kendini dene",
-   "prompt": "Süt ısınırken kabarıp ……….",
+   "prompt": "Süt sütlükte ısınıyor. Taşmaması için ne yapılır?",
    "choices": [
     {
      "id": "A",
-     "text": "taşar"
+     "text": "Süt izlenir; kabarmaya başlarsa ateş kısılır."
     },
     {
      "id": "B",
-     "text": "incelir"
+     "text": "Ateş artırılır."
     },
     {
      "id": "C",
-     "text": "çöker"
+     "text": "Ocağın başından ayrılınır."
     },
     {
      "id": "D",
-     "text": "durulaşır"
+     "text": "Sütlüğün kapağı sıkıca kapatılır."
     }
    ],
    "correct": "A",
-   "explanation": "",
+   "explanation": "Süt ısınırken izlenir; kabarmaya başlarsa ateş hemen kısılır.",
    "source": {
-    "file": "Mutfak_Araclari_Ogrenci_Kitabi.pdf",
+    "file": "Mutfak_Araclari_Duzeltilmis_v2.docx",
     "question": "5",
     "section": "Kendini dene"
    }
@@ -2219,7 +2219,7 @@
    "group": "Hazırlık ve doğrama araçları",
    "chapter": 2,
    "kind": "Kendini dene",
-   "prompt": "Limon kabuğunu toz gibi rendeleyen rende hangisidir?",
+   "prompt": "Çok ince dişleriyle limon kabuğunu küçük parçalar hâlinde rendeleyen araç hangisidir?",
    "choices": [
     {
      "id": "A",
@@ -2241,7 +2241,7 @@
    "correct": "D",
    "explanation": "",
    "source": {
-    "file": "Mutfak_Araclari_Ogrenci_Kitabi.pdf",
+    "file": "Mutfak_Araclari_Duzeltilmis_v2.docx",
     "question": "3",
     "section": "Kendini dene"
    }
@@ -2323,7 +2323,7 @@
     },
     {
      "id": "B",
-     "text": "havan"
+     "text": "sebze soyacağı"
     },
     {
      "id": "C",
@@ -2337,7 +2337,7 @@
    "correct": "C",
    "explanation": "",
    "source": {
-    "file": "Mutfak_Araclari_Ogrenci_Kitabi.pdf",
+    "file": "Mutfak_Araclari_Duzeltilmis_v2.docx",
     "question": "6",
     "section": "Kendini dene"
    }
@@ -2347,7 +2347,7 @@
    "group": "Hazırlık ve doğrama araçları",
    "chapter": 2,
    "kind": "Kendini dene",
-   "prompt": "Kapta kalan hamur ……… ile sıyrılır.",
+   "prompt": "Kabın kenarında kalan hamuru sıyırmak için hangisi en uygundur?",
    "choices": [
     {
      "id": "A",
@@ -2363,13 +2363,13 @@
     },
     {
      "id": "D",
-     "text": "silikon spatula"
+     "text": "silikon sıyırma spatulası"
     }
    ],
    "correct": "D",
-   "explanation": "",
+   "explanation": "Silikon sıyırma spatulası kabın kenarında kalan hamuru sıyırır.",
    "source": {
-    "file": "Mutfak_Araclari_Ogrenci_Kitabi.pdf",
+    "file": "Mutfak_Araclari_Duzeltilmis_v2.docx",
     "question": "7",
     "section": "Kendini dene"
    }
@@ -2379,29 +2379,29 @@
    "group": "Hazırlık ve doğrama araçları",
    "chapter": 2,
    "kind": "Kendini dene",
-   "prompt": "Çırpma teli ……… çalışır.",
+   "prompt": "Çırpma teli nasıl kullanılır?",
    "choices": [
     {
      "id": "A",
-     "text": "elektrikle"
+     "text": "Malzemeyi keserek"
     },
     {
      "id": "B",
-     "text": "elle"
+     "text": "Karışımın içinde çevirerek"
     },
     {
      "id": "C",
-     "text": "pille"
+     "text": "Kabın kenarını kazıyarak"
     },
     {
      "id": "D",
-     "text": "motorla"
+     "text": "Malzemeyi ezerek"
     }
    ],
    "correct": "B",
-   "explanation": "",
+   "explanation": "Çırpma teli elle, karışımın içinde çevrilerek kullanılır.",
    "source": {
-    "file": "Mutfak_Araclari_Ogrenci_Kitabi.pdf",
+    "file": "Mutfak_Araclari_Duzeltilmis_v2.docx",
     "question": "8",
     "section": "Kendini dene"
    }
@@ -2731,29 +2731,29 @@
    "group": "Ölçme, süzme, aktarma ve kontrol araçları",
    "chapter": 2,
    "kind": "Kendini dene",
-   "prompt": "Ölçü kabındaki çizgi nereden okunur?",
+   "prompt": "Ölçü kabındaki sıvı miktarı nasıl okunur?",
    "choices": [
     {
      "id": "A",
-     "text": "Göz hizasından"
+     "text": "Kap düz zemine konur; çizgi göz hizasında okunur."
     },
     {
      "id": "B",
-     "text": "Üstten"
+     "text": "Kap düz zemindeyken çizgiye yukarıdan bakılır."
     },
     {
      "id": "C",
-     "text": "Alttan"
+     "text": "Kap yana eğilip çizgiye yandan bakılır."
     },
     {
      "id": "D",
-     "text": "Kabı kaldırarak"
+     "text": "Kap havaya kaldırılıp çizgiye alttan bakılır."
     }
    ],
    "correct": "A",
-   "explanation": "",
+   "explanation": "Ölçü kabı düz zemine konur; çizgi göz hizasında okunur.",
    "source": {
-    "file": "Mutfak_Araclari_Ogrenci_Kitabi.pdf",
+    "file": "Mutfak_Araclari_Duzeltilmis_v2.docx",
     "question": "6",
     "section": "Kendini dene"
    }
@@ -2923,7 +2923,7 @@
    "group": "Ölçme, süzme, aktarma ve kontrol araçları",
    "chapter": 2,
    "kind": "Kendini dene",
-   "prompt": "Sıcak tencereden süzgece su nasıl dökülür?",
+   "prompt": "Öğretmen sıcak tencereden süzgece suyu nasıl döker?",
    "choices": [
     {
      "id": "A",
@@ -2943,9 +2943,9 @@
     }
    ],
    "correct": "C",
-   "explanation": "",
+   "explanation": "Kaynar suyu süzgece öğretmen döker; tencereyi kuru fırın eldivenleriyle tutar ve suyu yavaşça döker.",
    "source": {
-    "file": "Mutfak_Araclari_Ogrenci_Kitabi.pdf",
+    "file": "Mutfak_Araclari_Duzeltilmis_v2.docx",
     "question": "12",
     "section": "Kendini dene"
    }
@@ -3083,7 +3083,7 @@
    "group": "Ölçme, süzme, aktarma ve kontrol araçları",
    "chapter": 2,
    "kind": "Kendini dene",
-   "prompt": "Çay yapraklarını tutmak için ……… kullanılır.",
+   "prompt": "Çay bardağa dökülürken yaprakları tutmak için ……… kullanılır.",
    "choices": [
     {
      "id": "A",
@@ -3105,7 +3105,7 @@
    "correct": "D",
    "explanation": "",
    "source": {
-    "file": "Mutfak_Araclari_Ogrenci_Kitabi.pdf",
+    "file": "Mutfak_Araclari_Duzeltilmis_v2.docx",
     "question": "17",
     "section": "Kendini dene"
    }
@@ -3307,29 +3307,29 @@
    "group": "Hamur ve tatlı araçları",
    "chapter": 2,
    "kind": "Kendini dene",
-   "prompt": "Sıkma torbası yaklaşık ……… kadar doldurulur.",
+   "prompt": "Sıkma torbasındaki kremanın üstten taşmaması için ne yapılır?",
    "choices": [
     {
      "id": "A",
-     "text": "ağzına"
+     "text": "Torba ağzına kadar doldurulur."
     },
     {
      "id": "B",
-     "text": "dibine"
+     "text": "Torbanın üstü açık bırakılır."
     },
     {
      "id": "C",
-     "text": "yarısına"
+     "text": "Üstte boşluk bırakılıp torba bükülür."
     },
     {
      "id": "D",
-     "text": "tamamına"
+     "text": "Torbanın yalnız alt kısmı sıkılır."
     }
    ],
    "correct": "C",
-   "explanation": "",
+   "explanation": "Sıkma torbasının üstünde boşluk bırakılır ve torba bükülür; böylece krema üstten taşmaz.",
    "source": {
-    "file": "Mutfak_Araclari_Ogrenci_Kitabi.pdf",
+    "file": "Mutfak_Araclari_Duzeltilmis_v2.docx",
     "question": "5",
     "section": "Kendini dene"
    }
@@ -3511,7 +3511,7 @@
     }
    ],
    "correct": "D",
-   "explanation": "İnce rendenin dişleri çok incedir; kabuğu toz gibi rendeler.",
+   "explanation": "İnce rendenin dişleri çok incedir; kabuğu çok küçük parçalar hâlinde rendeler.",
    "source": {
     "file": "Mutfak_Araclari_Ogrenci_Kitabi.pdf",
     "question": "3",
@@ -3667,13 +3667,13 @@
     },
     {
      "id": "D",
-     "text": "Tavanın kapağı açılmalı."
+     "text": "Alevi söndürmek için tavaya üflenmeli."
     }
    ],
    "correct": "C",
    "explanation": "Yağ yangınına öğrenci müdahale etmez; uzaklaşır ve öğretmene haber verir.",
    "source": {
-    "file": "Mutfak_Araclari_Ogrenci_Kitabi.pdf",
+    "file": "Mutfak_Araclari_Duzeltilmis_v2.docx",
     "question": "8",
     "section": "Bölüm sonu"
    }
@@ -3905,7 +3905,7 @@
    "image": "assets/mutfak-araclari/sorular/gs2-5.jpg",
    "imageAlt": "Adı sorulan aracın fotoğrafı.",
    "correct": "B",
-   "explanation": "Limon rendesi kabuktan ince şeritler çıkarır; ince rende toz gibi rendeler.",
+   "explanation": "Limon rendesi kabuktan ince şeritler çıkarır; ince rende çok küçük parçalar hâlinde rendeler.",
    "source": {
     "file": "Mutfak_Araclari_Ogrenci_Kitabi.pdf",
     "question": "5",
@@ -4125,7 +4125,7 @@
     },
     {
      "id": "C",
-     "text": "Sütlüğün başından ayrılınmaz."
+     "text": "Süt ısınırken izlenir; ocaktan uzaklaşılmaz."
     },
     {
      "id": "D",
@@ -4133,9 +4133,9 @@
     }
    ],
    "correct": "C",
-   "explanation": "Süt ısınırken kabarıp taşar; kabarmaya başlarsa ateş kısılır.",
+   "explanation": "Süt kaynamaya başlayınca kabarıp taşabilir; kabarmaya başlarsa ateş kısılır.",
    "source": {
-    "file": "Mutfak_Araclari_Ogrenci_Kitabi.pdf",
+    "file": "Mutfak_Araclari_Duzeltilmis_v2.docx",
     "question": "5",
     "section": "Durum soruları"
    }
@@ -4177,7 +4177,7 @@
    "group": "2. Bölüm · Durum soruları",
    "chapter": 2,
    "kind": "Durum soruları",
-   "prompt": "Düdüklü tencerede yemek pişti. Kapak ne zaman açılır?",
+   "prompt": "Düdüklü tencerede yemek pişti. Öğretmen kapağı ne zaman açar?",
    "choices": [
     {
      "id": "A",
@@ -4199,7 +4199,7 @@
    "correct": "D",
    "explanation": "Basınç düşmeden açılan kapak fırlar; kaynar yemek ve buhar sıçrar. Düdüklü tencereyi öğretmen kullanır.",
    "source": {
-    "file": "Mutfak_Araclari_Ogrenci_Kitabi.pdf",
+    "file": "Mutfak_Araclari_Duzeltilmis_v2.docx",
     "question": "7",
     "section": "Durum soruları"
    }
@@ -4245,11 +4245,11 @@
    "choices": [
     {
      "id": "A",
-     "text": "Porselen tabak"
+     "text": "Mikrodalgaya uygun porselen tabak"
     },
     {
      "id": "B",
-     "text": "Isıya dayanıklı cam kap"
+     "text": "Mikrodalgaya uygun cam kap"
     },
     {
      "id": "C",
@@ -4257,13 +4257,13 @@
     },
     {
      "id": "D",
-     "text": "Cam kapak"
+     "text": "Mikrodalgaya uygun kapak"
     }
    ],
    "correct": "C",
    "explanation": "",
    "source": {
-    "file": "Mutfak_Araclari_Ogrenci_Kitabi.pdf",
+    "file": "Mutfak_Araclari_Duzeltilmis_v2.docx",
     "question": "2",
     "section": "Kendini dene"
    }
@@ -4377,7 +4377,7 @@
     },
     {
      "id": "B",
-     "text": "Örtülü olarak en az 2 dakika bekletilir."
+     "text": "Gevşekçe örtülü olarak en az 2 dakika bekletilir."
     },
     {
      "id": "C",
@@ -4391,7 +4391,7 @@
    "correct": "B",
    "explanation": "",
    "source": {
-    "file": "Mutfak_Araclari_Ogrenci_Kitabi.pdf",
+    "file": "Mutfak_Araclari_Duzeltilmis_v2.docx",
     "question": "6",
     "section": "Kendini dene"
    }
@@ -4757,7 +4757,7 @@
    "choices": [
     {
      "id": "A",
-     "text": "Kuru gıda kabında"
+     "text": "Kuru gıda kavanozunda"
     },
     {
      "id": "B",
@@ -4775,7 +4775,7 @@
    "correct": "A",
    "explanation": "",
    "source": {
-    "file": "Mutfak_Araclari_Ogrenci_Kitabi.pdf",
+    "file": "Mutfak_Araclari_Duzeltilmis_v2.docx",
     "question": "2",
     "section": "Kendini dene"
    }
@@ -4881,7 +4881,7 @@
    "group": "Saklama araçları ve artan yemek",
    "chapter": 3,
    "kind": "Kendini dene",
-   "prompt": "Büyük tencerede yemeğin ……… saatlerce ılık kalır.",
+   "prompt": "Soğumaya bırakılan büyük tenceredeki yemeğin hangi bölümü daha yavaş soğur?",
    "choices": [
     {
      "id": "A",
@@ -4901,9 +4901,9 @@
     }
    ],
    "correct": "A",
-   "explanation": "",
+   "explanation": "Büyük tenceredeki yemeğin ortası daha yavaş soğur; bu yüzden yemek küçük ve sığ kaplara bölünür.",
    "source": {
-    "file": "Mutfak_Araclari_Ogrenci_Kitabi.pdf",
+    "file": "Mutfak_Araclari_Duzeltilmis_v2.docx",
     "question": "6",
     "section": "Kendini dene"
    }
@@ -5137,7 +5137,7 @@
    "group": "Saklama araçları ve artan yemek",
    "chapter": 3,
    "kind": "Kendini dene",
-   "prompt": "Bekleme süresini geçen yemek ……….",
+   "prompt": "Oda sıcaklığında bekletme süresini geçen pişmiş yemek ……….",
    "choices": [
     {
      "id": "A",
@@ -5159,7 +5159,7 @@
    "correct": "D",
    "explanation": "",
    "source": {
-    "file": "Mutfak_Araclari_Ogrenci_Kitabi.pdf",
+    "file": "Mutfak_Araclari_Duzeltilmis_v2.docx",
     "question": "14",
     "section": "Kendini dene"
    }
@@ -5265,7 +5265,7 @@
    "group": "Saklama araçları ve artan yemek",
    "chapter": 3,
    "kind": "Kendini dene",
-   "prompt": "Büyük tenceredeki yemek çabuk soğusun diye küçük ve ……… kaplara bölünür.",
+   "prompt": "Derinliği az olan kaplara ……… kap denir.",
    "choices": [
     {
      "id": "A",
@@ -5287,7 +5287,7 @@
    "correct": "A",
    "explanation": "",
    "source": {
-    "file": "Mutfak_Araclari_Ogrenci_Kitabi.pdf",
+    "file": "Mutfak_Araclari_Duzeltilmis_v2.docx",
     "question": "18",
     "section": "Kendini dene"
    }
@@ -5297,7 +5297,7 @@
    "group": "Saklama araçları ve artan yemek",
    "chapter": 3,
    "kind": "Kendini dene",
-   "prompt": "Kuru gıda kabına ……… kaşık sokulmaz.",
+   "prompt": "Kuru gıda kavanozuna ……… kaşık sokulmaz.",
    "choices": [
     {
      "id": "A",
@@ -5319,7 +5319,7 @@
    "correct": "C",
    "explanation": "",
    "source": {
-    "file": "Mutfak_Araclari_Ogrenci_Kitabi.pdf",
+    "file": "Mutfak_Araclari_Duzeltilmis_v2.docx",
     "question": "19",
     "section": "Kendini dene"
    }
@@ -5489,29 +5489,29 @@
    "group": "Temizlik araçları",
    "chapter": 3,
    "kind": "Kendini dene",
-   "prompt": "Atölyemizde bulaşık makinesinde parlatıcı yerine ……… kullanılır.",
+   "prompt": "Deterjan tableti, deterjan haznesine ……… elle konur.",
    "choices": [
     {
      "id": "A",
-     "text": "tuz"
+     "text": "ıslak"
     },
     {
      "id": "B",
-     "text": "karbonat"
+     "text": "kuru"
     },
     {
      "id": "C",
-     "text": "beyaz sirke"
+     "text": "deterjanlı"
     },
     {
      "id": "D",
-     "text": "limon suyu"
+     "text": "yağlı"
     }
    ],
-   "correct": "C",
-   "explanation": "",
+   "correct": "B",
+   "explanation": "Deterjan tableti kuru elle deterjan haznesine konur.",
    "source": {
-    "file": "Mutfak_Araclari_Ogrenci_Kitabi.pdf",
+    "file": "Mutfak_Araclari_Duzeltilmis_v2.docx",
     "question": "5",
     "section": "Kendini dene"
    }
@@ -6145,7 +6145,7 @@
    "group": "3. Bölüm sonu değerlendirme",
    "chapter": 3,
    "kind": "Bölüm sonu",
-   "prompt": "Fotoğraflardan hangisi kuru gıda kabıdır?",
+   "prompt": "Kuru gıdaları saklamak için kullanılan kapaklı cam kavanoz hangi fotoğraftadır?",
    "choices": [
     {
      "id": "A",
@@ -6173,7 +6173,7 @@
     }
    ],
    "correct": "B",
-   "explanation": "Kuru gıda kabı kapaklı cam kaptır; içinde pirinç görülür.",
+   "explanation": "Kuru gıda kavanozu, kapağı çevrilerek açılan cam kavanozdur.",
    "source": {
     "file": "Mutfak_Araclari_Ogrenci_Kitabi.pdf",
     "question": "3",
@@ -6519,7 +6519,7 @@
     },
     {
      "id": "B",
-     "text": "Kuru gıda kabı"
+     "text": "Kuru gıda kavanozu"
     },
     {
      "id": "C",
@@ -6535,7 +6535,7 @@
    "correct": "A",
    "explanation": "GN küvet ölçüsü standart, çelik bir kaptır.",
    "source": {
-    "file": "Mutfak_Araclari_Ogrenci_Kitabi.pdf",
+    "file": "Mutfak_Araclari_Duzeltilmis_v2.docx",
     "question": "4",
     "section": "Görselden seçme"
    }
@@ -6759,13 +6759,13 @@
     },
     {
      "id": "D",
-     "text": "Kuru gıda kabında"
+     "text": "Kuru gıda kavanozunda"
     }
    ],
    "correct": "A",
-   "explanation": "",
+   "explanation": "Artan yemek buzdolabında, kapalı ve etiketli kapta saklanır.",
    "source": {
-    "file": "Mutfak_Araclari_Ogrenci_Kitabi.pdf",
+    "file": "Mutfak_Araclari_Duzeltilmis_v2.docx",
     "question": "4",
     "section": "Durum soruları"
    }
@@ -6839,7 +6839,7 @@
    "group": "3. Bölüm · Durum soruları",
    "chapter": 3,
    "kind": "Durum soruları",
-   "prompt": "Bone ve önlük ne zaman takılır?",
+   "prompt": "Bone ne zaman takılır, önlük ne zaman giyilir?",
    "choices": [
     {
      "id": "A",
@@ -6861,7 +6861,7 @@
    "correct": "D",
    "explanation": "Saça ve giysiye dokunan el, sonra yıkanarak temizlenir.",
    "source": {
-    "file": "Mutfak_Araclari_Ogrenci_Kitabi.pdf",
+    "file": "Mutfak_Araclari_Duzeltilmis_v2.docx",
     "question": "7",
     "section": "Durum soruları"
    }
@@ -6977,9 +6977,9 @@
    "prompt": "▲ ile gösterilen aracın adı nedir?",
    "image": "assets/mutfak-araclari/t01_06.jpg",
    "imageAlt": "Birden çok aracın karşılaştırıldığı fotoğraf. Adı sorulan araç ▲ ile gösterilmiştir.",
-   "answer": "ORTA BOY TABAK",
+   "answer": "TATLI TABAĞI",
    "similar": [
-    "SERVİS TABAĞI",
+    "ANA YEMEK TABAĞI",
     "EKMEK TABAĞI"
    ],
    "explanation": "Tatlı, pasta, meyve ve kahvaltı için kullanılan düz tabaktır. Kahvaltı tabağı ya da tatlı tabağı da denir.",
@@ -6991,7 +6991,7 @@
     "book": "Mutfak Araçları öğrenci kitabı",
     "bookItem": 4
    },
-   "hint": "Servis tabağına göre küçük, ekmek tabağına göre büyüktür."
+   "hint": "Ana yemek tabağına göre küçük, ekmek tabağına göre büyüktür."
   },
   {
    "id": "t01-07",
@@ -7145,9 +7145,9 @@
    "prompt": "▲ ile gösterilen aracın adı nedir?",
    "image": "assets/mutfak-araclari/t02_02.jpg",
    "imageAlt": "Birden çok aracın karşılaştırıldığı fotoğraf. Adı sorulan araç ▲ ile gösterilmiştir.",
-   "answer": "ORTA BOY TABAK",
+   "answer": "TATLI TABAĞI",
    "similar": [
-    "SERVİS TABAĞI",
+    "ANA YEMEK TABAĞI",
     "EKMEK TABAĞI"
    ],
    "explanation": "Tatlı, pasta, meyve ve kahvaltı için kullanılan düz tabaktır. Kahvaltı tabağı ya da tatlı tabağı da denir.",
@@ -7159,7 +7159,7 @@
     "book": "Mutfak Araçları öğrenci kitabı",
     "bookItem": 4
    },
-   "hint": "Servis tabağına göre küçük, ekmek tabağına göre büyüktür."
+   "hint": "Ana yemek tabağına göre küçük, ekmek tabağına göre büyüktür."
   },
   {
    "id": "t02-03",
@@ -7493,7 +7493,7 @@
    "imageAlt": "Adı sorulan aracın fotoğrafı.",
    "answer": "PASTA SPATULASI",
    "similar": [
-    "SİLİKON SPATULA"
+    "SİLİKON SIYIRMA SPATULASI"
    ],
    "explanation": "Kremayı pastaya sürmek ve yüzeyi düzeltmek için kullanılan metal spatuladır.",
    "source": {
@@ -7504,7 +7504,7 @@
     "book": "Mutfak Araçları öğrenci kitabı",
     "bookItem": 90
    },
-   "hint": "Silikon spatulaya göre sert ve düzdür; krema yaymak içindir."
+   "hint": "Silikon sıyırma spatulasına göre sert ve düzdür; krema yaymak içindir."
   },
   {
    "id": "t03-08",
@@ -7512,7 +7512,7 @@
    "prompt": "Bu aracın adı nedir?",
    "image": "assets/mutfak-araclari/t03_08.jpg",
    "imageAlt": "Adı sorulan aracın fotoğrafı.",
-   "answer": "KURU GIDA KABI",
+   "answer": "KURU GIDA KAVANOZU",
    "similar": [
     "SAKLAMA KABI"
    ],
@@ -7701,7 +7701,7 @@
    "answer": "EKMEK TABAĞI",
    "similar": [
     "FİNCAN TABAĞI",
-    "ORTA BOY TABAK"
+    "TATLI TABAĞI"
    ],
    "explanation": "Ekmeğin konduğu küçük, düz tabaktır.",
    "source": {
@@ -8170,7 +8170,7 @@
    "similar": [
     "TEMİZLİK BEZİ"
    ],
-   "explanation": "Serviste kullanılan temiz bezdir. Sıcak servis tabağını tutmak ve çatal, bıçak, kaşıkları parlatmak için kullanılır; bu iki iş için ayrı bezler kullanılır.",
+   "explanation": "Serviste kullanılan temiz bezdir. Sıcak ana yemek tabağını tutmak ve çatal, bıçak, kaşıkları parlatmak için kullanılır; bu iki iş için ayrı bezler kullanılır.",
    "source": {
     "file": "Mutfak_Araclari_Eslestirme_Kartlari-2.pdf",
     "page": 11,
@@ -8208,7 +8208,7 @@
    "prompt": "Bu aracın adı nedir?",
    "image": "assets/mutfak-araclari/t06_06.jpg",
    "imageAlt": "Adı sorulan aracın fotoğrafı.",
-   "answer": "SİLİKON SPATULA",
+   "answer": "SİLİKON SIYIRMA SPATULASI",
    "similar": [
     "PASTA SPATULASI",
     "KAŞIK SPATULA"
@@ -8390,7 +8390,7 @@
    "imageAlt": "Adı sorulan aracın fotoğrafı.",
    "answer": "SAKLAMA KABI",
    "similar": [
-    "KURU GIDA KABI",
+    "KURU GIDA KAVANOZU",
     "GASTRONORM (GN) KÜVET"
    ],
    "explanation": "Yiyecekleri buzdolabında ya da dolapta saklamak için kullanılan kapaklı kaptır. Atölyemizde gıdaya uygun cam ve çelik kaplar kullanılır.",
@@ -8402,7 +8402,7 @@
     "book": "Mutfak Araçları öğrenci kitabı",
     "bookItem": 107
    },
-   "hint": "Kuru gıda kabından farklı olarak pişmiş yemek ve çabuk bozulan yiyecekler için de kullanılır."
+   "hint": "Kuru gıda kavanozundan farklı olarak pişmiş yemek ve çabuk bozulan yiyecekler için de kullanılır."
   },
   {
    "id": "t07-04",
@@ -8823,9 +8823,9 @@
    "prompt": "▲ ile gösterilen aracın adı nedir?",
    "image": "assets/mutfak-araclari/t08_12.jpg",
    "imageAlt": "Birden çok aracın karşılaştırıldığı fotoğraf. Adı sorulan araç ▲ ile gösterilmiştir.",
-   "answer": "SERVİS TABAĞI",
+   "answer": "ANA YEMEK TABAĞI",
    "similar": [
-    "ORTA BOY TABAK",
+    "TATLI TABAĞI",
     "EKMEK TABAĞI"
    ],
    "explanation": "Ana yemeği sunmak için kullanılan büyük, düz tabaktır. Kuverde konuğun önüne konur.",
@@ -8837,7 +8837,7 @@
     "book": "Mutfak Araçları öğrenci kitabı",
     "bookItem": 1
    },
-   "hint": "Orta boy tabağa göre büyüktür."
+   "hint": "Fotoğraftaki tatlı tabağından büyüktür."
   },
   {
    "id": "t09-01",
@@ -8946,9 +8946,9 @@
    "prompt": "▲ ile gösterilen aracın adı nedir?",
    "image": "assets/mutfak-araclari/t09_06.jpg",
    "imageAlt": "Birden çok aracın karşılaştırıldığı fotoğraf. Adı sorulan araç ▲ ile gösterilmiştir.",
-   "answer": "SERVİS TABAĞI",
+   "answer": "ANA YEMEK TABAĞI",
    "similar": [
-    "ORTA BOY TABAK",
+    "TATLI TABAĞI",
     "EKMEK TABAĞI"
    ],
    "explanation": "Ana yemeği sunmak için kullanılan büyük, düz tabaktır. Kuverde konuğun önüne konur.",
@@ -8960,7 +8960,7 @@
     "book": "Mutfak Araçları öğrenci kitabı",
     "bookItem": 1
    },
-   "hint": "Orta boy tabağa göre büyüktür."
+   "hint": "Fotoğraftaki tatlı tabağından büyüktür."
   },
   {
    "id": "t09-07",
@@ -9094,7 +9094,7 @@
    "answer": "EKMEK TABAĞI",
    "similar": [
     "FİNCAN TABAĞI",
-    "ORTA BOY TABAK"
+    "TATLI TABAĞI"
    ],
    "explanation": "Ekmeğin konduğu küçük, düz tabaktır.",
    "source": {
@@ -9280,7 +9280,7 @@
    "imageAlt": "Adı sorulan aracın fotoğrafı.",
    "answer": "ÇEVİRME SPATULASI",
    "similar": [
-    "SİLİKON SPATULA",
+    "SİLİKON SIYIRMA SPATULASI",
     "OMLET SPATULASI"
    ],
    "explanation": "Köfte, yumurta ve krep gibi yiyecekleri tavada çevirmek için kullanılan geniş ve ince uçlu spatuladır.",
@@ -9343,7 +9343,7 @@
    "imageAlt": "Adı sorulan aracın fotoğrafı.",
    "answer": "KAŞIK SPATULA",
    "similar": [
-    "SİLİKON SPATULA"
+    "SİLİKON SIYIRMA SPATULASI"
    ],
    "explanation": "Sos ve hamur gibi karışımları karıştırmak, kaptan almak ve kabın kenarını sıyırmak için kullanılır.",
    "source": {
@@ -9499,7 +9499,7 @@
    "prompt": "Bu aracın adı nedir?",
    "image": "assets/mutfak-araclari/t11_09.jpg",
    "imageAlt": "Adı sorulan aracın fotoğrafı.",
-   "answer": "SİLİKON SPATULA",
+   "answer": "SİLİKON SIYIRMA SPATULASI",
    "similar": [
     "PASTA SPATULASI",
     "KAŞIK SPATULA"
@@ -9669,5 +9669,95 @@
    "label": "3. Bölüm · Durum soruları",
    "chapter": 3
   }
- ]
+ ],
+ "distractors": {
+  "1": [
+   "TATLI KAŞIĞI",
+   "ÇORBA KAŞIĞI",
+   "ANA YEMEK BIÇAĞI",
+   "ANA YEMEK ÇATALI",
+   "EKMEK TABAĞI",
+   "WAFFLE MAKİNESİ"
+  ],
+  "2": [
+   "SÜTLÜK",
+   "EKMEK TABAĞI",
+   "ANA YEMEK TABAĞI",
+   "ANA YEMEK ÇATALI",
+   "LİMON RENDESİ",
+   "KEVGİR"
+  ],
+  "3": [
+   "ÇORBA KÂSESİ",
+   "ÇAY TABAĞI",
+   "KIZARTMA TAVASI",
+   "SİLİKON SIYIRMA SPATULASI",
+   "SAKLAMA KABI",
+   "MEŞRUBAT BARDAĞI"
+  ],
+  "4": [
+   "LİTO BEZİ",
+   "EL BLENDERİ",
+   "FİNCAN TABAĞI",
+   "MAKARNA TABAĞI",
+   "MUFFİN KALIBI",
+   "SEBZE BIÇAĞI"
+  ],
+  "5": [
+   "ÇORBA KAŞIĞI",
+   "ÇAY KAŞIĞI",
+   "FİNCAN TABAĞI",
+   "EL MİKSERİ",
+   "SÜZGEÇ",
+   "FİNCAN"
+  ],
+  "6": [
+   "ÇORBA KAŞIĞI",
+   "ÇAY KAŞIĞI",
+   "ÇUKUR TABAK",
+   "PASTA SPATULASI",
+   "TEK KULLANIMLIK ELDİVEN",
+   "YEMEK TERMOMETRESİ"
+  ],
+  "7": [
+   "ÇUKUR TABAK",
+   "KURU GIDA KAVANOZU",
+   "SU BARDAĞI",
+   "KUPA",
+   "TATLI ÇATALI",
+   "PİŞİRME KÂĞIDI"
+  ],
+  "8": [
+   "TATLI KAŞIĞI",
+   "ÇAY KAŞIĞI",
+   "TEREYAĞI BIÇAĞI",
+   "MAKARNA TABAĞI",
+   "TATLI TABAĞI",
+   "TOST MAKİNESİ"
+  ],
+  "9": [
+   "TATLI KAŞIĞI",
+   "SALATA KÂSESİ",
+   "KAHVALTILIK KÂSE",
+   "TATLI TABAĞI",
+   "EL BLENDERİ",
+   "ÇAYDANLIK"
+  ],
+  "10": [
+   "FİNCAN TABAĞI",
+   "DEMLİK",
+   "EKMEK BIÇAĞI",
+   "SİLİKON PİŞİRME MATI",
+   "İNCE RENDE",
+   "OMLET SPATULASI"
+  ],
+  "11": [
+   "ÇEVİRME SPATULASI",
+   "PASTA SPATULASI",
+   "LİMON RENDESİ",
+   "ŞEF BIÇAĞI",
+   "DÜZ EL RENDESİ",
+   "SEBZE BIÇAĞI"
+  ]
+ }
 }
